@@ -1,0 +1,1 @@
+docker run --rm -it -v /home/pavel/PycharmProjects/Simple_capcha_solver_with_flask_docker/flask_service:/flask_service -p 5000:5000 flask_captcha /bin/bash -c 'cd ../flask_service && ./start_gunicorn.sh'
